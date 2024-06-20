@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.truck {
+  @apply bg-gray-200 p-4 m-2 w-64 h-24 flex flex-col justify-center;
+}
+
+.pallet {
+  @apply text-sm;
+}
