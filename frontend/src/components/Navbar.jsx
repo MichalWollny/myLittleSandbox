@@ -29,6 +29,16 @@ const Navbar = () => {
               Calender
             </a>
           </Link>
+          <Link to={"/currencyconverter"}>
+            <a href="#" className="flex items-center transition-colors p-2">
+              Currency Converter
+            </a>
+          </Link>
+          {/* <Link to={"/sandbox"}>
+            <a href="#" className="flex items-center transition-colors p-2">
+              Sandbox
+            </a>
+          </Link> */}
         </ul>
       </section>
     </div>

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import Freighter from "./components/Freighter";
 import Calender from "./components/Calender";
+import CurrencyConverter from "./components/CurrencyConverter";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/truckloader" element={<TruckLoadingSimulator />} />
         <Route path="/freighter" element={<Freighter />} />
         <Route path="/calender" element={<Calender />} />
+        <Route path="/currencyconverter" element={<CurrencyConverter />} />
       </Routes>
     </div>
   );
